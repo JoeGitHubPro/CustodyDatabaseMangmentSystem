@@ -461,7 +461,7 @@ h6 {
   list-style: none;
 }
 
-.header-nav>ul {
+.header-nav > ul {
   margin: 0;
   padding: 0;
 }
@@ -630,7 +630,6 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-
   #main,
   #footer {
     margin-left: 300px;
@@ -644,7 +643,6 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-
   .toggle-sidebar #main,
   .toggle-sidebar #footer {
     margin-left: 0;
@@ -883,7 +881,7 @@ h6 {
 }
 
 /* News & Updates */
-.dashboard .news .post-item+.post-item {
+.dashboard .news .post-item + .post-item {
   margin-top: 15px;
 }
 
@@ -1149,7 +1147,7 @@ h6 {
   padding: 12px 15px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #4154f1;
   border: 0;
   padding: 10px 30px;
@@ -1158,7 +1156,7 @@ h6 {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #5969f3;
 }
 
@@ -1230,4 +1228,55 @@ h6 {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+.Category {
+  background-color: #464444;
+  margin-bottom: 8px;
+}
+
+.list-category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* Add margin to the top of the navigation bar */
+}
+.spancategories {
+  color: red;
+}
+.list-category h2 {
+  color: white;
+  font-size: 29px;
+  padding-left: 40px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.list-category ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 1rem 2.2rem;
+}
+
+.list-category ul li button {
+  color: white;
+  border-color: wheat;
+  font-weight: 600;
+}
+.list-category ul li button .btn-btn-outline-secondary:hover {
+  background-color: #98a8ac;
+}
+@media screen and (max-width: 600px) {
+  .list-category {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .list-category h2 {
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  .list-category ul li {
+    margin: 10px 0;
+  }
 }
