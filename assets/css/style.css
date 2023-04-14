@@ -1229,54 +1229,20 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
-.Category {
-  background-color: #464444;
-  margin-bottom: 8px;
-}
-
-.list-category {
+.button-cataegory {
+  margin: 1.1rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  /* Add margin to the top of the navigation bar */
+  justify-content: flex-end;
 }
-.spancategories {
-  color: red;
+.btn {
+  margin: 0 20px;
 }
-.list-category h2 {
-  color: white;
-  font-size: 29px;
-  padding-left: 40px;
-  letter-spacing: 2px;
-  font-weight: 600;
-}
-
-.list-category ul li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 1rem 2.2rem;
-}
-
-.list-category ul li button {
-  color: white;
-  border-color: wheat;
-  font-weight: 600;
-}
-.list-category ul li button .btn-btn-outline-secondary:hover {
-  background-color: #98a8ac;
-}
-@media screen and (max-width: 600px) {
-  .list-category {
-    flex-direction: column;
-    align-items: flex-start;
+@media only screen and (max-width: 768px) {
+  .button-category {
+    justify-content: r;
   }
-  .list-category h2 {
-    font-size: 24px;
-    padding-left: 20px;
-    margin-bottom: 10px;
-  }
-  .list-category ul li {
-    margin: 10px 0;
+
+  .btn {
+    margin: 0 10px;
   }
 }
