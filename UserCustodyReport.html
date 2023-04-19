@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Pages / Contact - NiceAdmin Bootstrap Template</title>
+  <title>Tables / Data - NiceAdmin Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -324,92 +324,136 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Contact</h1>
+      <h1>User</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-          <li class="breadcrumb-item">Pages</li>
-          <li class="breadcrumb-item active">Contact</li>
+          <li class="breadcrumb-item"><a href="#">Users</a></li>
+          <!-- <li class="breadcrumb-item">Tables</li>-->
+          <li class="breadcrumb-item active">Report</li> 
         </ol>
       </nav>
     </div><!-- End Page Title -->
 
-    <section class="section contact">
+    <section class="section">
+      <div class="row">
+        <div class="col-lg-12">
 
-      <div class="row gy-4">
 
-        <div class="col-xl-6">
 
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-geo-alt"></i>
-                <h3>Address</h3>
-                <p>A108 Adam Street,<br>New York, NY 535022</p>
+              <!-- Table with stripped rows -->
+              <div class="card">
+                <div class="card-body">
+               
+                  <h5 class="card-title"> Report <span>UserName</span></h5> 
+
+    
+                  <!-- Table with stripped rows -->
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">User Name</th>
+                        <th scope="col">Device</th>
+                        <th scope="col">Device ID</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Note</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Category</th>
+                       
+
+    
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+    
+                        <th scope="row">1</th>
+                        <td>Brandon</td>
+                        <td>BrandonJacob123</td>
+                        <td>computer</td>
+                        <td>591247</td>
+                        <td> 05-25</td>
+                        <td>None</td>
+                        <td>Lab 5</td>
+                        <td>Computer</td> 
+    
+                       
+    
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Brandon</td>
+                        <td>BrandonJacob123</td>
+                        <td>computer</td>
+                        <td>591247123</td>
+                        <td> 05-25</td>
+                        <td>None</td>
+                        <td>Lab 5</td>
+                        <td>Computer</td>
+                        
+
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Brandon</td>
+                        <td>BrandonJacob123</td>
+                        <td>computer</td>
+                        <td>591247</td>
+                        <td> 05-25</td>
+                        <td>Avalibale</td>
+                        <td>Lab 5</td>
+                        <td>Computer</td> 
+
+                       
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Brandon</td>
+                        <td>BrandonJacob123</td>
+                        <td>computer</td>
+                        <td>591247</td>
+                        <td> 05-25</td>
+                        <td>None</td>
+                        <td>Lab 5</td>
+                        <td>Printer</td> 
+
+                       
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>Brandon</td>
+                        <td>BrandonJacob123</td>
+                        <td>computer</td>
+                        <td>591247</td>
+                        <td> 05-25</td>
+                        <td>None</td>
+                        <td>Lab 5</td>
+                        <td>Computer</td> 
+                      
+                      </tr>
+                    </tbody>
+                 
+                  </table>
+                  <!-- End Table with stripped rows -->
+
+                </div>
+
               </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-telephone"></i>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-envelope"></i>
-                <h3>Email Us</h3>
-                <p>info@example.com<br>contact@example.com</p>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="info-box card">
-                <i class="bi bi-clock"></i>
-                <h3>Open Hours</h3>
-                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
-              </div>
-            </div>
-          </div>
+                              <div class="d-grid gap-2 mt-3">
+                  <button class="btn btn-secondary" type="button" > Print  <i class="bi bi-printer"></i> </button> 
+                </div>
+              <!-- End Table with stripped rows -->
+
 
         </div>
-
-        <div class="col-xl-6">
-          <div class="card p-4">
-            <form action="forms/contact.php" method="post" class="php-email-form">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div>
-
-        </div>
-
+        
       </div>
-
     </section>
 
   </main><!-- End #main -->
@@ -417,14 +461,12 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>Mathematics Dept</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
+      Designed by <a href="#">DevelopmentTeam</a>
     </div>
   </footer><!-- End Footer -->
 

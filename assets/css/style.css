@@ -1,4 +1,10 @@
-
+/**
+* Template Name: NiceAdmin
+* Updated: Mar 09 2023 with Bootstrap v5.2.3
+* Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 /*--------------------------------------------------------------
 # General
@@ -217,11 +223,7 @@ h6 {
   border-radius: 5px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
- main .card1{
-margin-top: -50px;
-margin-right: 10px;
-margin-left: 1000px;
-}
+
 .card-header,
 .card-footer {
   border-color: #ebeef4;
@@ -240,7 +242,7 @@ margin-left: 1000px;
 
 .card-title span {
   color: #899bbd;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -381,7 +383,6 @@ margin-left: 1000px;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
   background-color: #fff;
   padding-left: 20px;
-  padding-top: 20px;
   /* Toggle Sidebar Button */
   /* Search Bar */
 }
