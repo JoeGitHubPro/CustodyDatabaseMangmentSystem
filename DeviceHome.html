@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Forms / Layouts - NiceAdmin Bootstrap Template</title>
+  <title>Tables / Data - NiceAdmin Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -257,6 +257,7 @@
           </li>        
         </ul>
       </li><!-- End Location Nav -->
+
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#Device" data-bs-toggle="collapse" href="#">
           <i class="bi bi-pc-display-horizontal"></i><span>Device</span><i class="bi bi-chevron-down ms-auto"></i>
@@ -279,6 +280,7 @@
           </li>        
         </ul>
       </li><!-- End Device Nav -->
+
 
       <li class="nav-heading">Pages</li>
 
@@ -345,46 +347,118 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Specification</h1>
+      <h1>Device</h1>
       <nav>
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="EditSpecification.html">Specification</a></li>
-          <!-- <li class="breadcrumb-item">Forms</li> -->
-          <li class="breadcrumb-item active">Edit</li>
+          <li class="breadcrumb-item"><a href="DeviceHome.html">Device</a></li>
+          <!-- <li class="breadcrumb-item">Tables</li> -->
+          <li class="breadcrumb-item active">Home</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
+
     <section class="section">
       <div class="row">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Edit Specification</h5>
+        <div class="col-lg-12">
 
-            <!-- Floating Labels Form -->
-            <form class="row g-3">
-              <div class="col-md-12">
-                <div class="form-floating">
-                  <input type="text" class="form-control" id="floatingName" placeholder="ModelName">
-                  <label for="floatingName">Model</label>
-                </div>
-              </div>
-            
-              <div class="col-12">
-                <div class="form-floating">
-                  <textarea class="form-control" placeholder="Description" id="floatingTextarea" style="height: 100px;"></textarea>
-                  <label for="floatingTextarea">Model</label>
-                </div>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Device</h5>
+              <p>Device data view is a type of data view that provides information on the custody of assets, such as Computers, Printers, and other. This view typically includes details on the identity of the custodian holding the assets and the ownership details of the assets.</p>
+
+              <!-- Table with stripped rows -->
+              <table class="table datatable">
+                <thead>
+                  <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">DeviceName</th>
+                    <th scope="col">DeviceCategory</th>
+                    <th scope="col">Model</th>
+                    <th scope="col">Info</th>
+                    
+                    <th scope="col">Edit</th> 
+                    <th scope="col">Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Brandon Jacob</td>
+                    <td>Designer</td>
+                    <td>samsung</td>
+                    <td>Additioninfo</td>
+                    <td>
+                      <button type="button" class="btn btn-secondary btn-sm"><i class="ri-edit-box-line"></i></button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm"><i class="bx bx-trash-alt"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Bridie Kessler</td>
+                    <td>Developer</td>
+                    <td>samsung</td>
+                    <td>Additioninfo</td>
+                    <td>
+                      <button type="button" class="btn btn-secondary btn-sm"><i class="ri-edit-box-line"></i></button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm"><i class="bx bx-trash-alt"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Ashleigh Langosh</td>
+                    <td>Finance</td>
+                    <td>samsung</td>
+                    <td>Additioninfo</td>
+                    <td>
+                      <button type="button" class="btn btn-secondary btn-sm"><i class="ri-edit-box-line"></i></button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm"><i class="bx bx-trash-alt"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Angus Grady</td>
+                    <td>HR</td>
+                    <td>samsung</td>
+                    <td>Additioninfo</td>
+                    <td>
+                      <button type="button" class="btn btn-secondary btn-sm"><i class="ri-edit-box-line"></i></button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm"><i class="bx bx-trash-alt"></i></button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">5</th>
+                    <td>Raheem Lehner</td>
+                    <td>Dynamic Division Officer</td>
+                    <td>samsung</td>
+                    <td>Additioninfo</td>
+                    <td>
+                      <button type="button" class="btn btn-secondary btn-sm"><i class="ri-edit-box-line"></i></button>
+                    </td>
+                    <td>
+                      <button type="button" class="btn btn-danger btn-sm"><i class="bx bx-trash-alt"></i></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- End Table with stripped rows -->
+              <div class="d-grid gap-2 mt-3">
+                <button class="btn btn-primary "   type="button" > Add + </button> 
               </div>
              
-              <div class="text-center">
-                <button type="submit" class="btn btn-primary">Submit</button>
-                <button type="reset" class="btn btn-secondary">Reset</button>
-              </div>
-            </form><!-- End floating Labels Form -->
 
+            </div>
           </div>
-        </div>
 
+        </div>
+        
       </div>
     </section>
 
@@ -393,11 +467,12 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>Mathematics Dept</span></strong>. All Rights Reserved  
+      &copy; Copyright <strong><span>Mathematics Dept</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
-     Designed by <a href="#">DevelopmentTeam</a>
+
+      Designed by <a href="#">DevelopmentTeam</a>
     </div>
   </footer><!-- End Footer -->
 
