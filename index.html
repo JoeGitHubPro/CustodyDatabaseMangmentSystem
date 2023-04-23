@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <title>Dashboard</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -29,13 +29,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: NiceAdmin
-  * Updated: Mar 09 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+ 
 </head>
 
 <body>
@@ -348,8 +342,9 @@
       <h1>Dashboard</h1>
       <nav>
         <ol class="breadcrumb"> 
-            <li class="breadcrumb-item active">Dashboard</li>
-          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            
+          <li class="breadcrumb-item active"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item ">Dashboard</li>
        
         </ol>
       </nav>
@@ -366,8 +361,8 @@
 
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Basic Modal</h5>
-                <p>Toggle a working modal demo by clicking the button below. It will slide down and fade in from the top of the page</p>
+                <h6 class="card-title">Custody Database Management System</h6>
+                <p> CDMS, is a web-based solution for managing the custody of physical assets. The system allows for the creation, management, and tracking of custody events associated with each asset.</p>
   
                 <!-- Basic Modal -->
 
@@ -413,14 +408,14 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Sales <span>| Today</span></h5>
+                  <h5 class="card-title">Users <span>| Total</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cart"></i>
+                      <i class="bi bi-people-fill"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>145</h6>
+                      <h6>45</h6>
                       <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
@@ -448,14 +443,14 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Revenue <span>| This Month</span></h5>
+                  <h5 class="card-title">Devices <span>| Site</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-currency-dollar"></i>
+                      <i class="bi bi-pc-display"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>$3,264</h6>
+                      <h6>64</h6>
                       <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
@@ -484,14 +479,13 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Customers <span>| This Year</span></h5>
+                  <h5 class="card-title">Custodies <span>| Percent</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-people"></i>
-                    </div>
+                      <i class="bi bi-link-45deg"></i>                    </div>
                     <div class="ps-3">
-                      <h6>1244</h6>
+                      <h6>34</h6>
                       <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
 
                     </div>
@@ -520,7 +514,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Reports <span>/Today</span></h5>
+                  <h5 class="card-title">Reports <span></span></h5>
 
                   <!-- Line Chart -->
                   <div id="reportsChart"></div>
@@ -529,14 +523,14 @@
                     document.addEventListener("DOMContentLoaded", () => {
                       new ApexCharts(document.querySelector("#reportsChart"), {
                         series: [{
-                          name: 'Sales',
+                          name: 'Users',
                           data: [31, 40, 28, 51, 42, 82, 56],
                         }, {
-                          name: 'Revenue',
+                          name: 'Devices',
                           data: [11, 32, 45, 32, 34, 52, 41]
                         }, {
-                          name: 'Customers',
-                          data: [15, 11, 32, 18, 9, 24, 11]
+                          name: 'Custody',
+                          data: [15, 11, 25, 18, 9, 24, 11]
                         }],
                         chart: {
                           height: 350,
@@ -567,7 +561,7 @@
                         },
                         xaxis: {
                           type: 'datetime',
-                          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                          categories: ["2022-09-19T00:00:00.000Z", "2022-09-19T01:30:00.000Z", "2022-09-19T02:30:00.000Z", "2022-09-19T03:30:00.000Z", "2022-09-19T04:30:00.000Z", "2022-09-19T05:30:00.000Z", "2022-09-19T06:30:00.000Z"]
                         },
                         tooltip: {
                           x: {
@@ -609,23 +603,23 @@
             </div>
 
             <div class="card-body">
-              <h5 class="card-title">Recent Activity <span>| Today</span></h5>
+              <h5 class="card-title">Recent Activity <span>| Month</span></h5>
 
               <div class="activity">
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">32 min</div>
+                  <!-- <div class="activite-label">32 min</div>
                   <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
                   <div class="activity-content">
                     Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
-                  </div>
+                  </div> -->
                 </div><!-- End activity item-->
 
                 <div class="activity-item d-flex">
-                  <div class="activite-label">56 min</div>
+                  <div class="activite-label">&nbsp;&nbsp;&nbsp;<i class="bi bi-clock-history"></i></div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
                   <div class="activity-content">
-                    Voluptatem blanditiis blanditiis eveniet
+                    Designing    <a href="#" class="fw-bold text-dark">QR</a> code scan system
                   </div>
                 </div><!-- End activity item-->
 
@@ -633,7 +627,7 @@
                   <div class="activite-label">2 hrs</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
-                    Voluptates corrupti molestias voluptatem
+                    Design users Report system
                   </div>
                 </div><!-- End activity item-->
 
@@ -641,7 +635,7 @@
                   <div class="activite-label">1 day</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
                   <div class="activity-content">
-                    Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
+                    Enabled  <a href="#" class="fw-bold text-dark">Dashboard</a> and statistics
                   </div>
                 </div><!-- End activity item-->
 
@@ -649,7 +643,7 @@
                   <div class="activite-label">2 days</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
                   <div class="activity-content">
-                    Est sit eum reiciendis exercitationem
+                    Providing notification & mailing service 
                   </div>
                 </div><!-- End activity item-->
 
@@ -657,7 +651,7 @@
                   <div class="activite-label">4 weeks</div>
                   <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
                   <div class="activity-content">
-                    Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
+                  Adding QR code scan system
                   </div>
                 </div><!-- End activity item-->
 
@@ -682,7 +676,7 @@
             </div>
 
             <div class="card-body pb-0">
-              <h5 class="card-title">Budget Report <span>| This Month</span></h5>
+              <h5 class="card-title">Activity <span>| This Month</span></h5>
 
               <div id="budgetChart" style="min-height: 400px;" class="echart"></div>
 
@@ -690,46 +684,46 @@
                 document.addEventListener("DOMContentLoaded", () => {
                   var budgetChart = echarts.init(document.querySelector("#budgetChart")).setOption({
                     legend: {
-                      data: ['Allocated Budget', 'Actual Spending']
+                      data: ['Clicks', 'Visits']
                     },
                     radar: {
                       // shape: 'circle',
                       indicator: [{
-                          name: 'Sales',
+                          name: 'Reports',
                           max: 6500
                         },
                         {
-                          name: 'Administration',
+                          name: 'Custody',
                           max: 16000
                         },
                         {
-                          name: 'Information Technology',
+                          name: 'Users',
                           max: 30000
                         },
                         {
-                          name: 'Customer Support',
+                          name: 'Category',
                           max: 38000
                         },
                         {
-                          name: 'Development',
+                          name: 'Device',
                           max: 52000
                         },
                         {
-                          name: 'Marketing',
+                          name: 'Location',
                           max: 25000
                         }
                       ]
                     },
                     series: [{
-                      name: 'Budget vs spending',
+                      name: 'Clicks vs Visits',
                       type: 'radar',
                       data: [{
                           value: [4200, 3000, 20000, 35000, 50000, 18000],
-                          name: 'Allocated Budget'
+                          name: 'Clicks'
                         },
                         {
                           value: [5000, 14000, 28000, 26000, 42000, 21000],
-                          name: 'Actual Spending'
+                          name: 'Visits'
                         }
                       ]
                     }]
@@ -754,15 +748,9 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
-    </div>
+      &copy; Copyright <strong><span>Mathematics Dept</span></strong>. All Rights Reserved    </div>
     <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
+      Designed by <a href="pages-blank.html">DevelopmentTeam</a>    </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
